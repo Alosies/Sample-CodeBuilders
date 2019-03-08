@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="container">
+    <Events />
+    <Posts />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Events from '../components/Events'
+import Posts from '../components/BlogPosts'
 
 export default {
-  name: "home",
   components: {
-    HelloWorld
+    Events,
+    Posts
   }
-};
+}
 </script>
+
+<style lang="stylus" scoped>
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 2rem;
+}
+</style>

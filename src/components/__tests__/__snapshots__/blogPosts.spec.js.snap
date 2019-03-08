@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld.vue BlogPost Component renders the posts 1`] = `
+<div>
+  <div class="heading">
+    <v-icon-stub size="3rem">
+      ballot
+    </v-icon-stub>
+    <h1 class="primary--text">
+      Blog Posts
+    </h1>
+  </div>
+  <div class="postsContainer"></div>
+</div>
+`;

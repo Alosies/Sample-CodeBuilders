@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld.vue Home Component renders 1`] = `
+<div class="container">
+  <events-stub></events-stub>
+  <posts-stub></posts-stub>
+</div>
+`;

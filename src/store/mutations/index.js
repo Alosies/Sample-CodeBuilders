@@ -4,5 +4,8 @@ export default {
   },
   setPosts(state, payload) {
     state.allPosts = payload
+  },
+  addEvent(state, payload) {
+    state.allEvents.push(payload)
   }
 }

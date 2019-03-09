@@ -13,6 +13,18 @@ describe('fetchEvents', () => {
   })
 })
 
+describe('addEvents', () => {
+  it('Receives Event and Adds to the store', () => {
+    let commit = jest.fn()
+    let event = {
+      title: 'title',
+      description: 'description'
+    }
+    actions.addEvent({commit}, event)
+    expect(commit).toHaveBeenCalledWith('addEvent', event)
+  })
+})
+
 const mockPost = {
   title: 'title',
   description: 'description'

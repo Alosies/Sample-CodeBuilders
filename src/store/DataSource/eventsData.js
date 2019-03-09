@@ -6,7 +6,8 @@ export const events = [
       'Participate in the code challenege and compete with 100s of coders',
     schedule: {
       date: 20,
-      month: 'Mar'
+      month: 'Mar',
+      year: 2019
     }
   },
   {
@@ -15,7 +16,8 @@ export const events = [
     description: 'Are you a JS Ninja? Show us',
     schedule: {
       date: 29,
-      month: 'Mar'
+      month: 'Mar',
+      year: 2019
     }
   },
   {
@@ -24,7 +26,8 @@ export const events = [
     description: 'Tame the Vuex Beast',
     schedule: {
       date: 13,
-      month: 'Apr'
+      month: 'Apr',
+      year: 2019
     }
   }
 ]

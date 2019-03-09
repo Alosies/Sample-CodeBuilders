@@ -3,13 +3,19 @@
 exports[`BlogPosts/index.vue Events Component renders 1`] = `
 <div>
   <div class="heading">
-    <v-icon-stub size="3rem">
-      event_available
-    </v-icon-stub>
-    <h1 class="primary--text">
-      Events
-    </h1>
+    <div style="display: flex;">
+      <v-icon-stub size="3rem">
+        event_available
+      </v-icon-stub>
+      <h1 class="primary--text">
+        Events
+      </h1>
+    </div>
+    <v-btn-stub color="primary" activeclass="v-btn--active" tag="button" type="button" class="addNewEvent">Add Event</v-btn-stub>
   </div>
   <div></div>
+  <v-dialog-stub contentclass="" maxwidth="none" origin="center center" width="600" transition="dialog-transition">
+    <add-event-stub></add-event-stub>
+  </v-dialog-stub>
 </div>
 `;

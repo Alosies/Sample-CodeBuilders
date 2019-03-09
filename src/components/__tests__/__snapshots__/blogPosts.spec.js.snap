@@ -10,6 +10,6 @@ exports[`BlogPosts/index.vue BlogPost Component renders 1`] = `
       Blog Posts
     </h1>
   </div>
-  <div class="postsContainer"></div>
+  <v-card-stub tag="div" class="postsContainer"></v-card-stub>
 </div>
 `;

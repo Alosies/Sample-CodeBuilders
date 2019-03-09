@@ -10,8 +10,8 @@
       </h1>
     </div>
     <!-- list of events -->
-    <div v-if="allPosts"
-         class="postsContainer">
+    <v-card v-if="allPosts"
+            class="postsContainer">
       <template v-for="(post, index) in allPosts">
         <v-card :key="index">
           <v-card-title primary-title>
@@ -24,7 +24,7 @@
           </v-card-title>
         </v-card>
       </template>
-    </div>
+    </v-card>
   </div>
 </template>
 
@@ -53,7 +53,7 @@ export default {
 }
 
 .postsContainer {
-  height: 35rem;
+  height: 575px;
   overflow: auto;
 }
 

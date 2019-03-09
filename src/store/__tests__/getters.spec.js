@@ -16,16 +16,17 @@ const state = {
   ]
 }
 
-describe('allEvents Getter', () => {
-  it('returns allEvents', () => {
+describe('Getters', () => {
+  it('allEvents: returns allEvents', () => {
+    // act
     const result = getters.allEvents(state)
+    // assert
     expect(result).toEqual(state.allEvents)
   })
-})
-
-describe('allPosts Getter', () => {
-  it('returns allPosts', () => {
+  it('allPosts: returns allPosts', () => {
+    // act
     const result = getters.allPosts(state)
+    // assert
     expect(result).toEqual(state.allPosts)
   })
 })

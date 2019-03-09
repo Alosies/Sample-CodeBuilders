@@ -2,12 +2,10 @@ import { events } from '../DataSource/eventsData'
 import axios from 'axios'
 export default {
   fetchEvents({ commit }) {
-    // const URL = "<BackEnd API URL>";
-    // axios.get(URL).then(response => {
-    //   commit("setEvents", payload);
-    // });
-    // const events = []
     commit('setEvents', events)
+  },
+  addEvent({ commit }, event) {
+    commit('addEvent', event)
   },
   async fetchPosts({ commit }) {
     const URL = 'https://jsonplaceholder.typicode.com/posts'

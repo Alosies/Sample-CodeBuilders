@@ -10,7 +10,8 @@
       </h1>
     </div>
     <!-- list of events -->
-    <div v-if="allPosts" class="postsContainer">
+    <div v-if="allPosts"
+         class="postsContainer">
       <template v-for="(post, index) in allPosts">
         <v-card :key="index">
           <v-card-title primary-title>
@@ -31,6 +32,11 @@
 import { mapGetters } from 'vuex'
 
 export default {
+  // data() {
+  //   return {
+  //     allPosts: []
+  //   }
+  // },
   computed: {
     ...mapGetters(['allPosts'])
   },

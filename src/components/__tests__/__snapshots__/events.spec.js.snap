@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BlogPosts/index.vue BlogPost Component renders 1`] = `
+exports[`BlogPosts/index.vue Events Component renders 1`] = `
 <div>
   <div class="heading">
     <v-icon-stub size="3rem">
-      ballot
+      event_available
     </v-icon-stub>
     <h1 class="primary--text">
-      Blog Posts
+      Events
     </h1>
   </div>
-  <div class="postsContainer"></div>
+  <div></div>
 </div>
 `;
